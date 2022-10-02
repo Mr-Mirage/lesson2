@@ -1,0 +1,58 @@
+   0 cd /home
+   1 mkdir animals
+   2 ls
+   3 cd animals
+   4 mkdir dogs
+   5 mkdir cats
+   6 mkdir fish
+   7 ls
+   8 cd cats
+   9 touch garfild.txt
+  10 ls
+  11 cd ..
+  12 cd dogs
+  13 touch pluto.txt
+  14 cd ..
+  15 cd fish
+  16 touch nemo.txt
+  17 cd ..
+  18 ls
+  19 tree /home
+  20 cd /home
+  21 cd /tmp
+  22 touch adam.txt
+  23 ls
+  24 cd /home
+  25 mkdir humans
+  26 ls
+  27 cd humans
+  28 cd /tmp
+  29 ls
+  30 cd /home
+  31 cd
+  32 cp /home/tmp/adam.txt /humans/adam.txt
+  33 cd /home
+  34 ls
+  35 tree /home
+  36 /cd
+  37 cd
+  38 cp /tmp/adam.txt /home/humans/adam.txt
+  39 cd /home
+  40 tree /home
+  41 cd /tmp
+  42 touch evA.txt
+  43 ls
+  44 cd /home
+  45 mkdir opt
+  46 ls
+  47 cd
+  48 mv /tmp/evA.txt /home/opt/eve.txt
+  49 mv /home/opt/eve.txt /home/humans/eve.txt
+  50 cd /home
+  51 cd humans
+  52 ls
+  53 cd
+  54 history
+  55 history > lesson2.txt
+  56 export_file /lesson2.txt
+  57 history > /tmp/lesson2.txt
